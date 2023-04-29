@@ -2,7 +2,8 @@
 #Bash script that displays To infinity and beyond indefinitely
 #In between each iteration of the loop, I should add a sleep 2
 
-if true
+while true
+do
 echo "To infinity and beyond"
 sleep 2
 done
