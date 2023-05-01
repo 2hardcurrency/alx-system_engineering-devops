@@ -8,5 +8,5 @@ while true
 do
         echo "to_infinity_and_beyond"
         sleep 2
-        trap 'echo ""I am invincible!!!"' SIGTERM
+        trap 'echo "I am invincible!!!"' SIGTERM
 done
