@@ -43,3 +43,4 @@ int main(void)
 		}
 	infinite_while();
 	return (EXIT_SUCCESS);
+}
