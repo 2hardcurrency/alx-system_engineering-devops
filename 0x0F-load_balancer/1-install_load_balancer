@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install and configure HAproxy on your lb-01 server.
+#Installs and configures HAproxy in a load balancer server
 
 apt-get install -y software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-1.8
@@ -10,7 +10,7 @@ echo "ENABLE=1" >> /etc/default/haproxy
 mv /etc/haproxy/haproxy.cfg{,.original}
 touch /etc/haproxy/haproxy.cfg
 
-printf %s "global
+printf %s "global"
     log 127.0.0.1 local0 notice
     maxconn 2000
     user haproxy
